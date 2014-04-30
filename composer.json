@@ -1,0 +1,35 @@
+{
+	"name": "gourmet/assetic"
+	, "description": "Assetic for CakePHP 3"
+	, "version": "0.0.1"
+	, "type": "cakephp-plugin"
+	, "keywords": [
+		"cakephp"
+		, "assetic"
+	]
+	, "homepage": "http://github.com/gourmet/assetic"
+	, "license": "MIT"
+	, "authors": [
+		{
+			"name": "Jad Bitar"
+			, "homepage": "http://jadb.io"
+			, "role": "Author"
+		}
+	]
+	, "support": {
+		"issues": "http://github.com/gourmet/assetic/issues"
+		, "source": "http://github.com/gourmet/assetic"
+	}
+	, "require": {
+		"composer/installers": "*"
+		, "kriswallsmith/assetic": "~1.1.2"
+	}
+	, "suggest": {
+		"phpunit/phpunit": "Allows automated tests to be run without system-wide install."
+	}
+	, "autoload": {
+		"psr-4": {
+			"Gourmet\\Assetic\\": "."
+		}
+	}
+}
