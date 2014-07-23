@@ -238,7 +238,7 @@ class AsseticTraitTest extends TestCase {
 		$this->assertEquals($expected, $result);
 	}
 
-	public function getFileType() {
+	public function testGetFileType() {
 		$expected = 'css';
 		$result = $this->Assetic->getFileType('assetic.css');
 		$this->assertEquals($expected, $result);
