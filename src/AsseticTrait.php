@@ -440,7 +440,7 @@ trait AsseticTrait {
 			return new GlobAsset($path, $filters);
 		}
 
-		return new FileAsset($path, $filters);
+		return new FileAsset($path, $filters, null, $file);
 	}
 
 	protected function _resolveCollection($type, $files) {

@@ -351,6 +351,14 @@ class AsseticTraitTest extends TestCase {
 		$this->Assetic->resolveCssFilters(['less']);
 	}
 
+	public function testResolveCssAsset() {
+		$asset = $this->Assetic->resolveCssAsset('bootstrap/bootstrap.css');
+
+		$result = $asset->getSourcePath();
+		$expected = 'bootstrap/bootstrap.css';
+		$this->assertEquals($result, $expected);
+	}
+
 	public function testSetPath() {
 		$this->Assetic->setCssPath('origin' . DS . 'path');
 
