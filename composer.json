@@ -1,7 +1,7 @@
 {
 	"name": "gourmet/assetic"
 	, "description": "Assetic for CakePHP 3"
-	, "version": "0.2.0"
+	, "version": "0.2.2"
 	, "type": "cakephp-plugin"
 	, "keywords": [
 		"cakephp"
