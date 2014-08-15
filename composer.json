@@ -32,4 +32,7 @@
 			"Gourmet\\Assetic\\": "src"
 		}
 	}
+	, "extra": {
+        "installer-name": "Gourmet/Assetic"
+    }
 }
