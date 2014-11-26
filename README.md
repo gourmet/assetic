@@ -4,6 +4,8 @@ Built to seamlessly integrate [Assetic][assetic] with [CakePHP][cakephp].
 
 __This is an unstable repository and should be treated as an alpha.__
 
+__UPDATE: Now that [@mark_story](http://twitter.com/mark_story) has released [markstory/asset_compress](http://github.com/markstory/asset_compress), I have stopped actively developing this plugin.__
+
 ## Install
 
 ```
